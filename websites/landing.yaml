@@ -1,0 +1,16 @@
+id: QmcJVkr6VnGLysJz8yst3zQYPwETAUUfhrced9EHMenSk2
+description: Landing
+tags:
+    - landing
+domains:
+    - generated
+source:
+    paths:
+        - /
+    branch: master
+    github:
+        id: "1213774570"
+        fullname: wwwattention/new.WAVE
+build:
+    command: npm install && npm run generate
+    directory: .output/public
